@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+/OOP/.vs/OOP/v16
+*.tlog
+/OOP/Debug
