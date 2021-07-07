@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+/Primer/Debug
+/.vs
+/Primer/.vs/Primer/v16/ipch/AutoPCH
+/Primer/.vs/Primer/v16
