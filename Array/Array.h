@@ -12,7 +12,7 @@ public:
 	Array(int = 0);
 
 	template<typename T>
-	ostream& operator(ostream& out, Array& arr)
+	ostream& operator<<(ostream& out, Array& arr)
 	{
 		try
 		{
@@ -30,8 +30,8 @@ public:
 			cout << exp.what() << endl;
 		}
 	}
-	void Insert(T value, int index);
-	void Push(T value, int index);
+	void Insert(T value, int index = 0);
+	//void Push(T value, int index=0);
 	T Remove(int index);
 };
 
